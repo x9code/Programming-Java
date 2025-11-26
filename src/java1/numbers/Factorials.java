@@ -1,15 +1,21 @@
 package java1.numbers;
+
+import java.util.Scanner;
+
 //Find factorial of a number using recursion and iteration.
 public class Factorials {
-    public static void factorialOfNum(int num){
+    public static void factorialOfNum(){
+        System.out.println("Enter a number :");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
        int fact = 1;
         for(int i=1;i<=num;i++){
             fact = fact * i;
         }
-        System.out.println(fact);
+        System.out.println("Factorial for "+num+" is "+fact);
     }
     public static void main(String[] args) {
-        factorialOfNum(4);
+        factorialOfNum();
 
     }
 
