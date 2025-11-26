@@ -1,48 +1,31 @@
 package java1.numbers;
 
 import java.util.Scanner;
+
 public class PrimeNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number : ");
+        int num = sc.nextInt();
 
+        if (num <= 1) {
+            System.out.println(num + " is not a prime number");
+            return;
+        }
 
+        boolean isPrime = true; 
 
-    public void  findPrime(int num){
-        ///int num=11;
-        int count=0;
-        for (int i=1;i<=num;i++){
-            if(num%i==0) {
-                count++;
-
+        for (int i = 2; i <= num / 2; i++) {
+            if (num % i == 0) {
+                isPrime = false;
+                break;
             }
         }
-        if (count==2){
-            System.out.println("this is a prime number");
+
+        if (isPrime) {
+            System.out.println(num + " is a prime number");
+        } else {
+            System.out.println(num + " is not a prime number");
         }
-        else {
-            System.out.println("not a prime number");
-        }
-    }
-    public static void main(String[] args) {
-//        int num=13;
-//        Scanner sc=new Scanner(System.in);
-//        System.out.println("enter a number:");
-//        int num=sc.nextInt();
-//        int count=0;
-//        for (int i=1;i<=num;i++){
-//            if (num%i==0){
-//                count++;
-//
-//            }
-//        }
-//        if (count==2){
-//            System.out.println(num+"this is prime number");
-//        }
-//        else {
-//            System.out.println("not prime number");
-//        }
-        PrimeNumber p1=new PrimeNumber();
-        p1.findPrime(13);
-
-
-
     }
 }
