@@ -3,7 +3,7 @@ package java1.string;
 import java.util.Scanner;
 import java.util.SortedMap;
 
-public class LowerCaseToUpperCase {
+public class LowerToUpperCase {
     public static void main(String[] args) {
         System.out.println("Enter a string :");
         Scanner sc = new Scanner(System.in);
