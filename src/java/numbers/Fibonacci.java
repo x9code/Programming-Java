@@ -1,4 +1,4 @@
-package java1.numbers;
+package java.numbers;
 
 import java.util.Scanner;
 

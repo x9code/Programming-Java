@@ -1,4 +1,4 @@
-package java1.string;
+package java.string;
 //Check if a given string is a palindrome
 public class CheckPalindrome {
     public static void main(String[] args) {

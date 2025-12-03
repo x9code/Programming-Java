@@ -1,4 +1,4 @@
-package java1.pattern;
+package java.pattern;
 public class Matrix3x3 {
 	public static void main(String[] args) {
 		 int[][] matrix = {

@@ -1,8 +1,6 @@
-package java1.string;
+package java.string;
 
-import java.util.Arrays;
 import java.util.Scanner;
-import java.util.SortedMap;
 
 public class LowerToUpperCase {
     public static void main(String[] args) {

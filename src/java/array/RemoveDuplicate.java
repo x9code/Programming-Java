@@ -1,6 +1,5 @@
-package java1.array;
+package java.array;
 import java.util.Arrays;
-import java.util.LinkedHashSet;
 
 public class RemoveDuplicate {
     public static void main(String[] args) {

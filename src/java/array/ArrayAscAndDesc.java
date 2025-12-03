@@ -1,4 +1,4 @@
-package java1.array;
+package java.array;
 
 public class ArrayAscAndDesc {
 	public static void main(String[] args) {
