@@ -1,4 +1,4 @@
-package java.string;
+package java_programs.strings;
 
 import java.util.Scanner;
 
@@ -8,12 +8,7 @@ public class ReverseString2 {
         System.out.println("Enter a string :");
         Scanner sc  = new Scanner(System.in);
         String str = sc.nextLine();
-        char[] ch = str.toCharArray();
-        int len = ch.length;
-        char[] rev = new char[len];
-        for (int i = 0; i<len;i++){
-            rev[i] = ch[len-1-i];
-        }
-        System.out.println("Reverse is : "+String.valueOf(rev));
+        StringBuilder s = new StringBuilder(str);
+        System.out.println(s.reverse());
     }
 }

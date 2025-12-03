@@ -1,4 +1,4 @@
-package java.array;
+package java_programs.array;
 import java.util.Arrays;
 
 public class RemoveDuplicate {

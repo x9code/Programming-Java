@@ -1,4 +1,4 @@
-package java.array;
+package java_programs.array;
 
 public class PrintRectangle {
 	public static void main(String[] args) {

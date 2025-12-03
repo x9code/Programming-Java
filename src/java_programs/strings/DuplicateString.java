@@ -1,4 +1,4 @@
-package java.string;
+package java_programs.strings;
 
 public class DuplicateString {
     public static void main(String[] args) {
