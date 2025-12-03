@@ -2,7 +2,6 @@ package java1.numbers;
 
 import java.util.Scanner;
 
-//Find factorial of a number using recursion and iteration.
 public class Factorials {
     public static void factorialOfNum(){
         System.out.println("Enter a number :");
@@ -16,7 +15,5 @@ public class Factorials {
     }
     public static void main(String[] args) {
         factorialOfNum();
-
     }
-
 }
