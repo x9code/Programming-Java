@@ -12,7 +12,7 @@ public class SwapStringsW {
         String str2 = sc1.nextLine();
         System.out.println("Before swapping : ");
         System.out.println("str1 :" + str1);
-        System.out.println("str2 :"+ str2);
+        System.out.println("str2 :" + str2);
         int len = str1.length();
         str1 = str1+str2;
         str2 = str1.substring(0,len);
