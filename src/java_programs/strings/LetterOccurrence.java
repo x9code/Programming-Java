@@ -3,7 +3,7 @@ package java_programs.strings;
 import java.util.LinkedHashMap;
 
 public class LetterOccurrence {
-    public static void letterCount(String s){
+    public static LinkedHashMap<Character, Integer> letterCount(String s){
         LinkedHashMap<Character,Integer> map = new LinkedHashMap<>();
         String str = s.replaceAll("\\s","");
         char[] ch = str.toCharArray();
@@ -14,10 +14,10 @@ public class LetterOccurrence {
                 map.put(c,1);
             }
         }
-        System.out.println(map);
+       return map;
     }
     public static void main(String[] args) {
         String s = "hello my name is deepak kumar rana";
-        letterCount(s);
+        System.out.println(letterCount(s));
     }
 }
