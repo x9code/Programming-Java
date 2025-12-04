@@ -13,6 +13,6 @@ public class LowerToUpperCase {
                 ch[i] = (char) (ch[i] - 32);
             }
         }
-        System.out.println(ch);
+        System.out.println(String.valueOf(ch));
     }
 }
