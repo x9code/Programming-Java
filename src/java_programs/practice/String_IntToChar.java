@@ -10,14 +10,14 @@ public class String_IntToChar {
         } else if (num < 20) {
             return twos[num%10];
         } else if (num < 100) {
-            return tens[(num/10)]+" "+ones[(num%10)];
+            return tens[(num/10)]+" "+((num % 10 != 0) ? ones[(num%10)]:"");
         } else if (num < 1000) {
-            return ones[num/100]+" hundred "+convert(num%100);
+            return ones[num/100]+ " Hundred "+((num % 100 != 0) ? convert(num%100):"");
         }
         return "";
     }
 
     public static void main(String[] args) {
-        System.out.println(convert(698));
+        System.out.println(convert(102));
     }
  }
