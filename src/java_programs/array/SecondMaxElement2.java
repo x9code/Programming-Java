@@ -1,8 +1,5 @@
 package java_programs.array;
 
-import java.util.LinkedHashSet;
-import java.util.Set;
-
 public class SecondMaxElement2 {
     public static void main(String[] args) {
         int[] num = {1,2,6,6,7,7,5,4,3};
