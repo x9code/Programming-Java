@@ -27,7 +27,6 @@ public class NthRightRotation {
         n = n % len;
         reverse(num,0,len-1);
         reverse(num,0,n-1);
-
         System.out.println(Arrays.toString(reverse(num,n,len-1)));
     }
 }
