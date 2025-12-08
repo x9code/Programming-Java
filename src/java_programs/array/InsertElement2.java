@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class InsertElement2 {
     public static int[] insert(int[] num,int index, int element){
         int[] result = new int[num.length+1];
-        
+
         for (int i = 0 ; i < index;i++){
             result[i] = num[i];
         }
