@@ -2,7 +2,7 @@ package java_programs.practice;
 
 import java.util.Scanner;
 
-public class PrimeNumber {
+public class Number_PrimeNumber {
     public static void isPrime(int n){
         boolean flag = true;
 
