@@ -5,9 +5,8 @@ public class BinaryToDecimal {
         int binary = 1001011;
         int count = 0;
         int decimal = 0;
-        int original = binary;
         while (binary != 0) {
-            int digit = binary % 10;    
+            int digit = binary % 10;
             decimal += digit * Math.pow(2,count);
             binary = binary / 10;
             count++;
