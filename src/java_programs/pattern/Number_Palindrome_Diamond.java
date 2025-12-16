@@ -20,7 +20,7 @@ public class Number_Palindrome_Diamond {
             for (int j = 1; j <= n-i; j++) {
                 System.out.print(" ");
             }
-            for (int k = i; k >= 1; k--) {//descending 
+            for (int k = i; k >= 1; k--) {//descending
                 System.out.print(k);
             }
             for (int k = 2; k <= i; k++) { //ascending
