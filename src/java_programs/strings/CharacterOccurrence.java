@@ -2,7 +2,7 @@ package java_programs.strings;
 
 import java.util.LinkedHashMap;
 
-public class LetterOccurrence {
+public class CharacterOccurrence {
     public static LinkedHashMap<Character, Integer> letterCount(String s){
         LinkedHashMap<Character,Integer> map = new LinkedHashMap<>();
         String str = s.replaceAll("\\s","");
