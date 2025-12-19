@@ -20,7 +20,7 @@ public class VowelAndConsonantCount {
                 }
             }
         }
-        System.out.println("number of vowels : "+vowelCount);
+        System.out.println("number of vowels: "+vowelCount);
         System.out.println("number of consonants:"+consonantCount);
     }
 }
